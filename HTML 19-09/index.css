@@ -1,0 +1,73 @@
+    body {
+        background-color: gray
+    }
+.centralizado {
+    background-color: gray;
+    width: 100;
+}
+.none /* Criar index html, index html, colocar um arquivo dentro e importar para página*/
+
+.inline {
+    /*Serve para destacar um certo texto, você pode ler e editar no editor online */
+    display: inline;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+
+}
+
+.inline-block {
+    /*Coloca um bloco amarelo gigante */
+    position: static;
+    display: inline-block;
+    color: blue;
+    width: 1400px;
+    border: 400px coral;
+    height: 100px;
+    padding: 100px; /*Tamanho do block, elemento, atribuição*/
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-containerRed > div {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin: 0px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center    
+}
+.flex-containerYellow > div {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    margin: 0px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center
+}
+.flex-containerGreen > div {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    margin: 0px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center
+}
+.flex-containerBlue > div {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    margin: 0px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center
+}
