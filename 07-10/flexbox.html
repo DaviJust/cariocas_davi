@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando flex-box</title>
+</head>
+<style>
+        .container{
+            border: 2px solid blue;
+            height: 300px;
+            width: 800px;
+            display: flex;
+            flex-direction: row; /*Por padrão é linha */
+            justify-content: flex-start;
+            align-items: stretch;
+        }
+        .div_igual{
+            width:100px;
+            height: 56px;
+            border:2px solid black;
+            text-align: center;
+            margin: 4px;
+            align-items: baseline;
+        }
+        .minha_div_1{
+            background-color: yellow;
+        }
+        
+        .minha_div_2{
+            background-color: red;
+        }
+        
+        .minha_div_3{
+            background-color: blue;
+        }
+        
+        .minha_div_4{
+            background-color: green;
+        }
+</style>
+<body>
+    <div class="container"> <!--Tudo oq estiver dentro dessa div estará dentro do container-->
+        <div class="minha_div_1 div_igual">amarelo</div>
+        <div class="minha_div_2 div_igual">vermelho</div>
+        <div class="minha_div_3 div_igual">azul</div>
+        <div class="minha_div_4 div_igual">verde</div>
+        <div class="minha_div_5 div_igual"></div>
+    </div>
+</body>
+</html>
